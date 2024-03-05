@@ -16,6 +16,7 @@ Cons:
 ## 2. Finalize the cluster provider framework
 Ror is k8s-provider agnostic and we have implemented providers for Vmware Tanzu and Kind. There is some work to be done to finalize this so that any new providers can just plug in to this approach. Additional providers will shed more light on whats missing but its known that some logic round scaling and deletion must be clarified and polished.
 
-## Remove NHN-opinionated code
+## 3.Remove NHN-opinionated code
 
 There will be a continous work to remove NHN opinioneted code.
+
